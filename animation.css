@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+.div {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+
+    animation-name: my-div;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my-div {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 500px;
+        top: 0;
+        background-color: blueviolet;
+    }
+
+    50% {
+        left: 500px;
+        top: 400px;
+        background-color: brown;
+    }
+
+    75% {
+        left: 0;
+        top: 400px;
+        background-color:green ;
+    }
+}

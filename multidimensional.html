@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ary=[["sunny",54,"male","bba"],
+        ["manu",42,"male","bca"],
+        ["soniya",74,"female","mtech"]
+     ];
+     documnet.write("<table border='2px' cellspacing='10px' cellpadding='10px'>")
+        for (var a=0;a<=3;a++)
+        {
+            document.write("<tr>")
+            for(var b=0;b<=3;b++)
+            {
+                document.write("<td>"+ary[a][b]+"</td>");
+            }
+            document.write("<tr/>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+</html>
